@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "lexi";
+  src: url('fonts/lexi/Lexi.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-size: 10px;
   background: rgb(51, 153, 102);
@@ -37,9 +44,9 @@ a {
 }
 
 .logo-text{
-  color: rgb(255,255,255);
-  background-color: black;
+  background-color: rgb(255,255,255);
+  color: black;
   text-align: center;
-  text-transform: uppercase;
-  font-size: 37px;
+  font-size: 56px;
+  font-family: lexi;
 }
